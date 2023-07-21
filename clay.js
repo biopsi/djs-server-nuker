@@ -46,7 +46,7 @@ const ayarlarData = fs.readFileSync('ayarlar.json');
 const ayarlar = JSON.parse(ayarlarData);
 client.ayarlar = ayarlar;
 
-client.login('MTEzMTg4ODM4NDE4MTI3MjY1Ng.G_8ohK.N-GGBZjVa2ULr0GMNZ2hYzLDTbrt2DzL4VMTv4').catch(e => {})
+client.login('BOT_TOKEN').catch(e => {})
 
 client.ws.setMaxListeners(20); // Change the number according to your needs
 
