@@ -1,0 +1,25 @@
+{
+  "name": "sex",
+  "version": "1.0.0",
+  "description": "nuker",
+  "main": "clay.js",
+  "scripts": {
+    "start": "node clay.js"
+  },
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^14.8.0",
+    "fs": "^0.0.2",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "",
+    ""
+  ],
+  "author": ""
+}
